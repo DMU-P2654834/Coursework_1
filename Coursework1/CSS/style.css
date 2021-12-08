@@ -1,0 +1,133 @@
+body{
+  background-color: azure;
+}
+/*this sets the background colour to a light blue */
+
+.title{
+  color:MediumBlue;
+  text-align: center;    /*centers the title on the page */
+  font-family: verdana;
+  font-size: 60px;
+}
+
+ul {
+list-style-type: none;   /*This means that there is no markers for the list elements*/
+margin: 0;
+padding: 0;
+overflow: hidden;   /* any overflow will not be shown on the webpage */
+background-color:LightSeaGreen;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;  /*the menu will take up the width of the page */
+color: white;
+text-align: center;
+padding: 14px 16px;
+font-family: verdana;
+font-size: 20px
+}
+
+li a:hover {
+background-color: PaleTurquoise;  /*The background colour of the list element will change to plae turquoise when the mouse is hovered on it */
+}
+
+h2{
+  text-align: center;
+  font-family: verdana;
+  font-size: 30px;
+  color: teal;
+}
+
+.synopsis{
+  text-align: center;
+  font-family: verdana;
+  font-size: 22px;
+  padding-bottom: 10px;  /*padding and margin spaces out the synopsis from the video */
+  margin-bottom: 20px;
+}
+
+video{
+  display: block;
+  margin: auto;
+  width: 70%;
+}   /*centers the video element on the webpage */
+
+.castpage{
+  color: navy;
+  font-size: 24px;
+  font-family: verdana;
+  text-align: left;   /*causes the names of the actors to be on the left of the page  */
+  padding-left: 20px;
+}
+
+.castsection1{
+  padding-bottom:10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.castsection2{
+  padding-top: 30px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.AshtonPic{
+  float: left;  /*moves the picture to the left of the page while also allowing the accompanying text to be alongside the picture on the right */
+  width: 270px;
+  height: 360px;
+  padding: 0px 10px;
+  margin: 0px 5px;
+}
+
+.AshtonAbout{
+  font-size: 22px;
+  font-family: verdana;
+  color:black;
+  padding: 10px;
+  margin: 15px;
+}
+
+.MilaPic{
+  float: left;  /*moves the picture to the left of the page while also allowing the accompanying text to be alongside the picture on the right */
+  width: 270px;
+  height: 360px;
+  padding: 0px 10px;
+  margin: 0px 5px;
+}
+
+.MilaAbout{
+  font-size: 22px;
+  font-family: verdana;
+  color:black;
+  padding: 10px;
+  margin: 15px;
+}
+
+audio{
+  padding: 5px 0px;  /*gives space between the text and the audio element */
+  margin: 5px 0px;
+}
+
+.extra{
+  margin-left: auto;   /*moves the picture to the very left of the screen below the cast sections */
+}
+
+.caption{
+  font-size: 16px;
+  font-family: verdana;
+  color: darkcyan;
+}
+
+.footer{
+  font-size: 18px;
+  color: black;
+  text-align: center;  /*centers the footer text */
+  margin-top: 60px;
+  padding: 10px;
+  background-color: LightSeaGreen;  /*gives the footer the same background colour as the menu, gies the page continuity */
+}
